@@ -8,7 +8,6 @@ public class AppTest {
     @Test
     public void testApp() throws InterruptedException {
         Thread.sleep(5000);
-
         Assert.assertTrue(true);
     }
 }
