@@ -15,7 +15,7 @@
       <scope>test</scope>   
     </dependency>  
   </dependencies>
-  <build>
+  <build> 
     <finalName>hello-world-webapp</finalName>
   </build>
 </project>
