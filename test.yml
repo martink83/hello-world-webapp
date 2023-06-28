@@ -7,7 +7,7 @@
   - action: "Execute npm test"
     type: "BUILD"
     docker_image_name: "library/node"
-    docker_image_tag: "18"
+    docker_image_tag: "17"
     execute_commands:
     - "# yarn install"
     - "npm install"
