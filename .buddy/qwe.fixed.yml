@@ -1,4 +1,4 @@
-- pipeline: "qweh"
+- pipeline: "qwehhh"
   on: "CLICK"
   refs:
   - "refs/heads/master"
