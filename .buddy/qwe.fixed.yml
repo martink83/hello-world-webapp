@@ -1,7 +1,8 @@
 - pipeline: "qwehhh"
-  on: "CLICK"
-  refs:
-  - "refs/heads/master"
+  events:
+  - type: "PUSH"
+    refs:
+    - "refs/heads/b1/b2"
   priority: "LOW"
   fail_on_prepare_env_warning: true
   actions:
