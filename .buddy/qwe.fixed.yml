@@ -1,15 +1,15 @@
-- pipeline: "qwehhh"
+- pipeline: qwehhh
   events:
-  - type: "PUSH"
+  - type: PUSH
     refs:
-    - "refs/heads/master"
-  priority: "LOW"
+    - refs/heads/master
+  priority: LOW
   fail_on_prepare_env_warning: true
   actions:
-  - action: "pwd"
-    type: "BUILD"
-    docker_image_name: "library/ubuntu"
-    docker_image_tag: "20.04"
+  - action: pwd
+    type: BUILD
+    docker_image_name: library/ubuntu
+    docker_image_tag: 20.04
     execute_commands:
-    - "pwd"
-    shell: "BASH"
+    - pwds
+    shell: BASH
