@@ -1,8 +1,4 @@
 - pipeline: qwehhh
-  events:
-  - type: PUSH
-    refs:
-    - refs/heads/master
   priority: LOW
   fail_on_prepare_env_warning: true
   actions:
