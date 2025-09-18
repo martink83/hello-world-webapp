@@ -1,4 +1,6 @@
 - pipeline: qwehhh
+  refs:
+  - refs/heads/qwe
   priority: LOW
   fail_on_prepare_env_warning: true
   actions:
